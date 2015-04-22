@@ -1,1 +1,2 @@
 # padsimu
+http://gametuku.com/
