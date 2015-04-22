@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>パズドラ風パズルシミュレータ</title>
+    <style type="text/css">
+    <!--
+    body {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select:none;
+        -ms-user-select: none;
+    }
+    -->
+    </style>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-61962730-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <h3>パズドラ風パズルシミュレータ</h3>
+    <input type="button" id="relocation" value="再配置">
+    <input type="text" id="combonum" value="" disabled="disabled">
+    <div id="game_window" >
+        <canvas id="canv" width="240" height="200"></canvas>
+    </div>
+    <a href="http://gametuku.com">サイトに戻る</a>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
