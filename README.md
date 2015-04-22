@@ -1,2 +1,4 @@
 # パズドラ風パズルシミュレータ
-http://gametuku.com/
+
+ゲーム：http://gametuku.com/game/padsimu/
+紹介サイト：http://gametuku.com/
